@@ -1,0 +1,8 @@
+
+ok n'utilise plus *.op *.mk --> automatique
+ok supprime les fichiers log vide
+ok ne pas compiler les sources avec << (*copie).>> dans le nom
+ok ajout api mysql si trouve #include <mysql.h> (reste les chemins a corriger) 
+   demande le nom du source si argc == 1
+   optimisation de la compile (si .o plus recent que .c ne pas compiler)
+
